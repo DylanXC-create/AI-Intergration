@@ -11,6 +11,14 @@ HERE_API_KEY: str = "6gbAUK7xvwNxdcExWOPDcKizVzc7fkLkeXAjuc1uwPk"
 INTERSECTIONS: Dict[str, Dict[str, Any]] = {
     "main_st_bailey": {"location": "Main St and Bailey Ave", "coords": (42.8864, -78.8784)},
     "walden_bailey": {"location": "Walden Ave and Bailey Ave", "coords": (42.9051, -78.7949)},
+    "hertel_main": {"location": "Hertel Ave and Main St", "coords": (42.9462, -78.8675)},
+    "clinton_bailey": {"location": "Clinton St and Bailey Ave", "coords": (42.8923, -78.8316)},
+    "transit_sheridan": {"location": "Transit Rd and Sheridan Dr", "coords": (42.9650, -78.6950)},
+    "ferry_mass_richmond": {"location": "Ferry St, Massachusetts Ave, and Richmond Ave", "coords": (42.9060, -78.8780)},
+    "porter_jersey_normal": {"location": "Porter Ave, Jersey Ave, and Normal Ave", "coords": (42.9180, -78.8920)},
+    "niagara_east_robinson": {"location": "Niagara Falls Blvd and East Robinson Rd", "coords": (42.9840, -78.7200)},
+    "elmwood_forest": {"location": "Elmwood Ave and Forest Ave", "coords": (42.9260, -78.8750)},
+    "grant_ferry": {"location": "Grant St and Ferry St", "coords": (42.9100, -78.8800)},
 }
 
 def fetch_traffic_data(coords: Tuple[float, float]) -> Dict[str, int]:
